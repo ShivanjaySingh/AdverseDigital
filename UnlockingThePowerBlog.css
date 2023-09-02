@@ -1,0 +1,30 @@
+body{
+    overflow-x: hidden;
+  }
+  
+.flexcontainer{
+    display:flex;
+    position: -webkit-sticky;
+    position: sticky;
+    column-gap: 90px;
+    background-color: black;
+    border-radius: 50px;
+    
+}
+
+.flexitem a{
+    color: aquamarine;
+    margin-left: 7px;
+}
+@media (max-width: 700px) {
+    .flexcontainer{
+        column-gap: 45px;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .flexcontainer{
+        column-gap:10px;
+    }
+}

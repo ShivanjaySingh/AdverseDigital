@@ -1,0 +1,828 @@
+body{
+  overflow-x: hidden;
+}
+
+/* NAv Bar start here*/
+
+.logo{
+  font-family: 'Dancing Script', cursive;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: 100;
+}
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  grid-template-rows: repeat(1fr);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 90%;
+  height: 1px;
+  row-gap: 12px;
+  column-gap: 122px;
+ place-items: center;
+margin-left: 123px;
+/* position:sticky;
+top: 0; */
+
+}
+
+.griditem{
+  color: rgb(28,60,91);
+}
+
+.flexitem a{
+  color: rgb(28,60,91);
+  border-radius:40px ;
+  transition: 0.2s;
+  margin: 0 5px;
+}
+.flexitem a:hover{
+    color: rgb(4, 116, 229);
+    background-color: aliceblue;
+ 
+}
+
+.flexcontainer{
+  display: flex;
+  /* margin: 20px; */
+}
+
+  .ii{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 21px;
+  }
+
+  
+  img{
+    width: 30px;
+    height: 30px;
+  }
+
+  .toggle-btn{
+    display: none;  
+  }
+
+  /* DROP DOWN MENU */
+
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    color: rgb(136, 117, 117);
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgb(195, 194, 189);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .dropdown-menu.open{
+    height: 240px;
+  }
+
+  .dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown-menu{
+    display: block;
+  }
+
+/* Nav Bar ends here */
+
+/* contact us designing starts here */
+.main{
+  margin-top: 222px;
+  margin-bottom: 15px;
+  border: 2px solid grey;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding: 50px;
+  text-align: center;
+  color: rgb(28,60,91);
+  font-family: 'Bad Script', cursive;
+}
+h2{
+  font-size: 30px;
+  
+}
+p{
+  font-size: 23px;
+}
+
+.num{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Main content of contact us page */
+
+.info{
+  width: 50vw;
+  padding: 20px;
+  margin-top: 23px;
+  border: 2px solid rgb(28,60,91);
+  color: rgb(28,60,91);
+ }
+ /* .ads{
+  font-size: 30px;
+  font-weight: 400;
+ } */
+
+ .sub-btn{
+  background-color: rgb(28,60,91);
+  margin-top: 20px;
+  width: 120px;
+  height: 60px;
+  border-radius: 1px;
+  color: white;
+  font-size: 20px;
+ }
+ 
+ .sub-btn:hover{
+  background-color: rgb(59, 130, 201);
+  cursor: pointer;
+ }
+
+ .info::placeholder{
+  font-size: 20px;
+ }
+
+/* Main content of contact us page ends here*/
+
+ /* footer starts from here */
+
+ footer{
+  background-color: rgb(197, 208, 221);
+  width: 100%;
+  height: 650px;
+}
+
+.footcontainer{
+  display: grid;
+  grid-template-columns: repeat(3,2fr);
+  grid-template-rows: repeat(1fr);
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 90%;
+  height: 1px;
+  row-gap: 12px;
+  column-gap: 122px;
+ place-items: center;
+margin-left: 123px;
+padding: 60px;
+padding-left: 1px;
+}
+
+.ads{
+  font-weight: 100;
+}
+
+.trust{
+  font-size: 20px;
+}
+
+li a{
+  text-decoration: none;
+  color: rgb(101, 86, 86);
+  }
+
+li a:hover{
+  color: grey;
+}
+
+#li{
+list-style-type: none;
+} 
+
+li{
+font-size: 20px;
+}
+
+.newsletter{
+border: 1px solid white;
+background-color: rgb(207, 202, 202);
+width: 300px;
+height: 40px;
+border-radius: 5px;
+}
+
+::placeholder{
+  font-size: 17px;
+}
+
+.newsletterbtn{
+border: 4px solid black ;
+  border-radius: 3px;
+  padding: 10px;
+  background-color: black;
+  margin-top: 12px;
+}
+
+.newsletterbtn a{
+text-decoration: none;
+color: white;
+}
+/* Footer Starts ends */
+
+
+
+
+/* RESPONSIVE DESIGN STARTS HERE */
+
+@media (min-width: 700px) and (max-width: 900px){
+
+  .helll a,.flexitem a{
+     display: none;
+   }
+  
+   /* HEADER IS THIS MEANS NAV BAR STARTS FROM HERE */
+  
+   .toggle-btn{
+     display: block;
+     /* width: 5px;
+     height: 5px; */
+   }
+  
+   /* .dropdown-menu{
+    display: block;
+   } */
+  
+   .dropdown-menu{
+    left: 2rem;
+    width: unset;
+    margin-top: 50px;
+   }
+  
+  
+   .logo{
+     font-family: 'Dancing Script', cursive;
+     text-decoration: underline;
+     font-size: 40px;
+     font-weight: 100;
+   }
+  
+   .gridcontainer{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(1fr);
+     grid-column-start: 1;
+     grid-column-end: 2;
+     width: 95vw;
+     height: 5vh;
+     row-gap: 1em;
+     column-gap: 2px;
+    place-items: center;
+   margin-left: 12px;  
+   }
+  
+   /* HEADER AND NAV BAR ENDS HERE */
+  
+  
+  /* MAIN CONTENT STARTS FROM HERE */
+  
+  .main{
+    margin-top: 222px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 50px;
+    text-align: center;
+    color: rgb(28,60,91);
+    font-family: 'Bad Script', cursive;
+  }
+  h2{
+    font-size: 30px;
+    
+  }
+  p{
+    font-size: 23px;
+  }
+  
+  .num{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Main content of contact us page */
+  
+  .info{
+    width: 50vw;
+    padding: 20px;
+    margin-top: 23px;
+    border: 2px solid rgb(28,60,91);
+    color: rgb(28,60,91);
+   }
+   /* .ads{
+    font-size: 30px;
+    font-weight: 400;
+   } */
+  
+   .sub-btn{
+    background-color: rgb(28,60,91);
+    margin-top: 20px;
+    width: 120px;
+    height: 60px;
+    border-radius: 1px;
+    color: white;
+    font-size: 20px;
+   }
+   
+   .sub-btn:hover{
+    background-color: rgb(59, 130, 201);
+    cursor: pointer;
+   }
+  
+   .info::placeholder{
+    font-size: 20px;
+   }
+  
+  
+  
+  
+  /* MAIN CONTENT ENDS HERE */
+  
+        /* FOOTER STARTS FROM HERE */
+  
+        footer{
+          background-color: rgb(197, 208, 221);
+         width: 100vw;
+         height: 150vh;
+     }
+     
+     .footcontainer{
+         display: grid;
+         grid-template-columns: repeat(2,2fr);
+         grid-template-rows: repeat(1fr);
+         grid-column-start: 2;
+         grid-column-end: 4;
+         width: 90%;
+         height: 1px;
+         row-gap: 10px;
+         column-gap: 122px;
+        place-items: center;
+       margin-left: 12px;
+       padding: 40px;
+       padding-left: 1px;
+     }
+     
+     .ads{
+         font-weight: 100;
+       }
+     
+       .trust{
+         font-size: 20px;
+       }
+     
+       li a{
+         text-decoration: none;
+         color: rgb(101, 86, 86);
+         }
+     
+       li a:hover{
+         color: grey;
+       }
+     
+      #li{
+       list-style-type: none;
+       } 
+     
+      li{
+       font-size: 20px;
+      }
+      
+      .newsletter{
+       border: 1px solid white;
+       background-color: rgb(207, 202, 202);
+       width: 300px;
+       height: 40px;
+       border-radius: 5px;
+      }
+     
+      ::placeholder{
+         font-size: 17px;
+       }
+      
+      .newsletterbtn{
+       border: 4px solid black ;
+         border-radius: 3px;
+         padding: 10px;
+         background-color: black;
+         margin-top: 12px;
+      }
+     
+      .newsletterbtn a{
+       text-decoration: none;
+       color: white;
+      }
+     
+  
+        /* FOOTER ENDS FROM HERE */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 700px) and (min-width: 500px){
+  
+  .helll a,.flexitem a{
+     display: none;
+   }
+  
+   /* HEADER IS THIS MEANS NAV BAR STARTS FROM HERE */
+  
+   .toggle-btn{
+     display: block;
+     /* width: 5px;
+     height: 5px; */
+   }
+  
+   .dropdown-menu{
+    left: 2rem;
+    width: unset;
+    margin-top: 50px;
+   }
+  
+  
+   .logo{
+     font-family: 'Dancing Script', cursive;
+     text-decoration: underline;
+     font-size: 40px;
+     font-weight: 100;
+   }
+  
+   .gridcontainer{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(1fr);
+     grid-column-start: 1;
+     grid-column-end: 2;
+     width: 95vw;
+     height: 5vh;
+     row-gap: 1em;
+     column-gap: 2px;
+    place-items: center;
+   margin-left: 50px;  
+   }
+  
+  /* HEADER AND NAV BAR ENDS HERE */
+  
+  
+  
+  /* MAIN CONTENT STARTS FROM HERE */
+  
+  .main{
+    margin-top: 222px;
+    margin-bottom: 10px;
+    border: 2px solid grey;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding: 50px;
+    text-align: center;
+    color: rgb(28,60,91);
+    font-family: 'Bad Script', cursive;
+  }
+  h2{
+    font-size: 30px;
+    
+  }
+  p{
+    font-size: 20px;
+  }
+  
+  .num{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  /* Main content of contact us page */
+  
+  .info{
+    width: 50vw;
+    padding: 20px;
+    margin-top: 23px;
+    border: 2px solid rgb(28,60,91);
+    color: rgb(28,60,91);
+   }
+   /* .ads{
+    font-size: 30px;
+    font-weight: 400;
+   } */
+  
+   .sub-btn{
+    background-color: rgb(28,60,91);
+    margin-top: 20px;
+    width: 120px;
+    height: 60px;
+    border-radius: 1px;
+    color: white;
+    font-size: 20px;
+   }
+   
+   .sub-btn:hover{
+    background-color: rgb(59, 130, 201);
+    cursor: pointer;
+   }
+  
+   .info::placeholder{
+    font-size: 20px;
+   }
+  
+  
+  
+  /* MAIN CONTENT ENDS HERE */
+  
+        /* FOOTER STARTS FROM HERE */
+  
+        footer{
+          background-color: rgb(197, 208, 221);
+         /* width: 120vw; */
+         width: 100%;
+         height: 190vh;
+     }
+     
+     .footcontainer{
+         display: grid;
+         grid-template-columns: repeat(1,2fr);
+         grid-template-rows: repeat(1fr);
+         grid-column-start: 2;
+         grid-column-end: 4;
+         width: 90%;
+         height: 1px;
+         row-gap: 10px;
+         column-gap: 122px;
+        place-items: center;
+       margin-left: 12px;
+       padding: 40px;
+       padding-left: 1px;
+     }
+     
+     .ads{
+         font-weight: 100;
+       }
+     
+       .trust{
+         font-size: 20px;
+       }
+     
+       li a{
+         text-decoration: none;
+         color: rgb(101, 86, 86);
+         }
+     
+       li a:hover{
+         color: grey;
+       }
+     
+      #li{
+       list-style-type: none;
+       } 
+     
+      li{
+       font-size: 20px;
+      }
+      
+      .newsletter{
+       border: 1px solid white;
+       background-color: rgb(207, 202, 202);
+       width: 300px;
+       height: 40px;
+       border-radius: 5px;
+      }
+     
+      ::placeholder{
+         font-size: 17px;
+       }
+      
+      .newsletterbtn{
+       border: 4px solid black ;
+         border-radius: 3px;
+         padding: 10px;
+         background-color: black;
+         margin-top: 12px;
+      }
+     
+      .newsletterbtn a{
+       text-decoration: none;
+       color: white;
+      }
+     
+  
+        /* FOOTER ENDS FROM HERE */
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 500px) and (min-width: 200px){
+  
+    .helll a,.flexitem a{
+       display: none;
+     }
+    
+     /* HEADER IS THIS MEANS NAV BAR STARTS FROM HERE */
+    
+     .toggle-btn{
+       display: block;
+       /* width: 5px;
+       height: 5px; */
+     }
+    
+     .dropdown-menu{
+      left: 2rem;
+      width: unset;
+      margin-top: 50px;
+     }
+    
+    
+     .logo{
+       font-family: 'Dancing Script', cursive;
+       text-decoration: underline;
+       font-size: 40px;
+       font-weight: 100;
+     }
+    
+     .gridcontainer{
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(1fr);
+       grid-column-start: 1;
+       grid-column-end: 2;
+       width: 95vw;
+       height: 5vh;
+       row-gap: 1em;
+       column-gap: 2px;
+      place-items: center;
+     margin-left: 50px;  
+     }
+    
+    /* HEADER AND NAV BAR ENDS HERE */
+    
+    
+    /* MAIN CONTENT STARTS FROM HERE */
+    
+    .main{
+      margin-top: 222px;
+      margin-bottom: 10px;
+      border: 2px solid grey;
+      margin-left: 5vw;
+      margin-right: 5vw;
+      padding: 50px;
+      text-align: center;
+      color: rgb(28,60,91);
+      font-family: 'Bad Script', cursive;
+    }
+    h2{
+      font-size: 30px;
+      
+    }
+    p{
+      font-size: 13px;
+      text-align: center;
+    }
+    
+    .num{
+      font-family: 'Times New Roman', Times, serif;
+    }
+    
+    /* Main content of contact us page */
+    
+    .info{
+      width: 30vw;
+      padding: 10px;
+      margin-top: 23px;
+      border: 2px solid rgb(28,60,91);
+      color: rgb(28,60,91);
+     }
+     /* .ads{
+      font-size: 30px;
+      font-weight: 400;
+     } */
+  
+     .sub-btn{
+      background-color: rgb(28,60,91);
+      margin-top: 20px;
+      width: 120px;
+      height: 60px;
+      border-radius: 1px;
+      color: white;
+      font-size: 20px;
+     }
+     
+     .sub-btn:hover{
+      background-color: rgb(59, 130, 201);
+      cursor: pointer;
+     }
+    
+     .info::placeholder{
+      font-size: 10px;
+     }
+   
+    
+    
+    /* MAIN CONTENT ENDS HERE */
+    
+          /* FOOTER STARTS FROM HERE */
+    
+          footer{
+            background-color: rgb(197, 208, 221);
+           /* width: 120vw; */
+           width: 100vw;
+           height: 200vh;
+       }
+       
+       .footcontainer{
+           display: grid;
+           grid-template-columns: repeat(1,2fr);
+           grid-template-rows: repeat(1fr);
+           grid-column-start: 2;
+           grid-column-end: 4;
+           width: 90%;
+           height: 1px;
+           row-gap: 10px;
+           column-gap: 122px;
+          place-items: center;
+         margin-left: 12px;
+         padding: 40px;
+         padding-left: 1px;
+       }
+       
+       .ads{
+           font-weight: 100;
+         }
+       
+         .trust{
+           font-size: 20px;
+         }
+       
+         li a{
+           text-decoration: none;
+           color: rgb(101, 86, 86);
+           }
+       
+         li a:hover{
+           color: grey;
+         }
+       
+        #li{
+         list-style-type: none;
+         } 
+       
+        li{
+         font-size: 20px;
+        }
+        
+        .newsletter{
+         border: 1px solid white;
+         background-color: rgb(207, 202, 202);
+         width: 300px;
+         height: 40px;
+         border-radius: 5px;
+        }
+       
+        ::placeholder{
+           font-size: 17px;
+         }
+        
+        .newsletterbtn{
+         border: 4px solid black ;
+           border-radius: 3px;
+           padding: 10px;
+           background-color: black;
+           margin-top: 12px;
+        }
+       
+        .newsletterbtn a{
+         text-decoration: none;
+         color: white;
+        }
+       
+    
+          /* FOOTER ENDS FROM HERE */
+    }
+
+
+
+                                                            /* COMPLETED IN MY POV */

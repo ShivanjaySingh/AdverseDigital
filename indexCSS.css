@@ -1,0 +1,1141 @@
+/* Nav bar Starts here */
+
+.body-class{
+  overflow-x: hidden;
+  
+}
+
+.logo{
+  width: 30px;
+  height: 30px;
+  
+    /* font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: 100; */
+  }
+  .gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1fr);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 90%;
+    height: 1px;
+    row-gap: 12px;
+    column-gap: 122px;
+   place-items: center;
+  margin-left: 123px;  
+  }
+
+  .griditem{
+    color: rgb(28,60,91);
+  }
+
+  .flexitem a{
+    color: rgb(28,60,91);
+    border-radius:40px ;
+    transition: 0.2s;
+    margin: 0 5px;
+  }
+  .flexitem a:hover{
+      color: rgb(4, 116, 229);
+      background-color: aliceblue;
+   
+  }
+  .flexcontainer{
+    display: flex;
+    /* margin: 20px; */
+  }
+
+  .ii{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 22px;
+  }
+
+  
+  img{
+    width: 28px;
+    height: 28px;
+  }
+
+  .toggle-btn{
+    display: none;  
+  }
+
+  /* DROP DOWN MENU */
+
+  .dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 2rem;
+    color: rgb(136, 117, 117);
+    top: 60px;
+    width: 300px;
+    height: 0;
+    background: rgb(195, 194, 189);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .dropdown-menu.open{
+    height: 240px;
+  }
+
+  .dropdown-menu li{
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dropdown-menu{
+    display: block;
+  }
+
+
+/* Nav Bar ends here */
+
+
+
+   /* Tagline to Button Starts here        */
+   #tagline1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    padding-left: 120px; 
+    padding-right: 120px;
+    margin-top: 180px;
+    margin-bottom: 1px;
+    color: rgb(28, 60, 91);
+    font-family: 'Rajdhani', sans-serif;
+  }
+
+  #tagline2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 10  px;
+  }
+
+  #twobtn{
+    padding: 20px;
+    margin: 20px;  
+    display: flex;
+    justify-content: center;  }
+
+  #btn1{
+    border: 4px solid cadetblue;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: cadetblue;
+    margin-right: 45px;
+    width: 120px;
+  }
+
+  #btn1:hover{
+    background-color:rgb(40, 145, 220);
+    cursor: pointer;
+    border: solid rgb(40, 145, 220);
+    }    
+
+  #btn2{
+    border: 4px solid cadetblue ;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: cadetblue;
+    margin-right: 45px;
+    width: 120px;
+  }
+
+  #btn2:hover{
+    background-color:rgb(40, 145, 220);
+    cursor: pointer;
+    border: solid rgb(40, 145, 220);
+    }
+    /* Tagline to Button Ends here        */
+ 
+
+    /* This is main block means middle part */
+
+
+
+   
+
+    .imgs{
+      display: block;
+      /* width: 700px;
+      height: 500px; */
+      width: 50%;
+      height: auto;
+      
+      margin: 10px auto 20px;
+    }
+
+
+    #btn4{
+      border: 4px solid #212b36 ;
+      border-radius: 4px;
+      padding: 10px;
+      background-color: #212b36;
+      width: 120px;
+      color: white;
+    }
+  
+    #btn4:hover{
+      background-color:#c28f6a;
+      cursor: pointer;
+      border: 4px solid #c28f6a;
+      }
+   
+  
+   
+.heading{
+ text-align: center;
+  font-size: 40px;
+  text-justify: center;
+}
+
+   .serve{
+    color: rgb(28,60,91);
+   }
+
+   .serve1{
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 30px;
+    margin-top: 60px;
+   }
+
+   .serve2{
+    margin-left: 123px;
+    margin-right: 123px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'poppins';
+   }
+
+   .main-container1{ 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 12px 120px;
+    
+   }
+   
+   .main-item{
+    color: rgb(28,60,91);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-weight: 100;
+    background-color: rgb(234, 236, 240);
+    border-radius: 10px;
+    margin: 34px;
+    text-align: center;
+   }
+
+   #image{
+    width: 150px;
+
+    height: auto;
+   }
+
+   #btn3{
+    border: 4px solid #212b36 ;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #212b36;
+    margin-right: 45px;
+    width: 120px;
+    color: white;
+  }
+
+  #btn3:hover{
+    background-color:#c28f6a;
+    cursor: pointer;
+    border: 4px solid #c28f6a;
+    }
+   
+
+  #para{
+    font-size: 22px;
+  }
+
+
+
+
+
+
+
+
+
+
+    /* Footer Starts here */
+footer{
+  background-color: rgb(197, 208, 221);
+    width: 100%;
+    height: 600px;
+}
+
+.footcontainer{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    grid-template-rows: repeat(1fr);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: 90%;
+    height: 1px;
+    row-gap: 12px;
+    column-gap: 122px;
+   place-items: center;
+  margin-left: 123px;
+  padding: 60px;
+  padding-left: 1px;
+}
+
+.ads{
+    font-weight: 100;
+  }
+
+  .trust{
+    font-size: 20px;
+  }
+
+  li a{
+    text-decoration: none;
+    color: rgb(101, 86, 86);
+    }
+
+  li a:hover{
+    color: grey;
+  }
+
+ #li{
+  list-style-type: none;
+  } 
+
+ li{
+  font-size: 20px;
+ }
+ 
+ .newsletter{
+  border: 1px solid white;
+  background-color: rgb(207, 202, 202);
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+ }
+
+ ::placeholder{
+    font-size: 17px;
+  }
+ 
+ .newsletterbtn{
+  border: 4px solid black ;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: black;
+    margin-top: 12px;
+ }
+
+ .newsletterbtn a{
+  text-decoration: none;
+  color: white;
+ }
+  /* Footer Starts ends */
+
+
+
+
+
+
+
+
+  /* RESPONSIVE DESIGN */
+
+  @media (min-width: 800px){
+    .dropdown-menu{
+      display: none;
+    }
+  }
+
+ @media (min-width: 800px) and (max-width: 1100px){
+
+    /* HEADER IS THIS MEANS NAV BAR STARTS FROM HERE */
+
+    .helll p{
+      display: none;
+    }
+    /* .toggle-btn{
+      display: block;
+      width: 5px;
+      height: 5px;
+    } */
+
+   
+    .logo{
+      font-family: 'Dancing Script', cursive;
+      text-decoration: underline;
+      font-size: 40px;
+      font-weight: 100;
+    }
+
+    .gridcontainer{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(1fr);
+      grid-column-start: 1;
+      grid-column-end: 2;
+      width: 95vw;
+      height: 5vh;
+      row-gap: 1em;
+      column-gap: 2px;
+     place-items: center;
+    margin-left: 12px;  
+    }
+
+    /* HEADER AND NAV BAR ENDS HERE */
+
+    /* TAG LINE STARTS FEOM HERE */
+    #tagline1{
+      text-align: center;
+      font-size: 3rem;
+      font-weight: lighter;
+      padding-left: 2vw;
+      padding-right: 5pvw;
+      
+      margin-top: 160px;
+      margin-bottom: 1px;
+      color: rgb(28, 60, 91);
+      font-family: 'Rajdhani', sans-serif;
+    }
+  
+    #tagline2{
+      text-align: center;
+      font-size: 30px;
+      font-weight: 100;
+      margin-top: 1px;
+    }
+
+    #twobtn{
+      padding: 3vw;
+      margin: 2px;
+      display: flex;
+      justify-content: center;    }
+  
+    #btn1{
+      border: 4px solid cadetblue;
+      border-radius: 4px;
+      padding: 10px;
+      background-color: cadetblue;
+      margin-right: 45px;
+    }
+  
+    #btn1:hover{
+      background-color:rgb(40, 145, 220);
+      cursor: pointer;
+      border: 4px solid rgb(40, 145, 220);
+      }    
+  
+    #btn2{
+      border: 4px solid cadetblue ;
+      border-radius: 4px;
+      padding: 10px;
+      background-color: cadetblue;
+      margin-right: 45px;
+      width: 120px;
+    }
+  
+    #btn2:hover{
+      background-color:rgb(40, 145, 220);
+      cursor: pointer;
+      border: 4px solid rgb(40, 145, 220);
+      }
+
+/* TAG LINE WALA SYSTEM ENDS HERE */
+
+
+/* COMPUTER WALI IMAGE KI DESIGN STARTS FROM HERE */
+      .imgs{
+        width: 500px;
+        height: 400px;
+        /* margin-left: 27%; */
+        margin-top: 15px;
+        margin: 10px auto 20px;
+      }
+  
+  
+      #btn4{
+        border: 4px solid #212b36 ;
+        border-radius: 4px;
+        padding: 10px;
+        background-color: #212b36;
+        margin-left: 45vw;
+        width: 120px;
+        color: white;
+      }
+    
+      #btn4:hover{
+        background-color:#c28f6a;
+        cursor: pointer;
+        border: solid #c28f6a;
+        }
+
+/* COMPUTER WALI IMAGE KI DESIGN ENDS HERE */
+
+/* MAIN CONTENT STARTS FROM HERE */
+
+      
+      
+.main-container1{ 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 12px 120px;
+  
+ }
+ 
+ .main-item{
+  color: rgb(28,60,91);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  font-weight: 100;
+  background-color: rgb(234, 236, 240);
+  border-radius: 10px;
+  margin: 34px;
+  text-align: center;
+ }
+         
+        
+      
+         #image{
+          width: 200px;
+      
+          height: auto;
+         }
+
+         /* MAIN CONTENT ENDS HERE */
+
+         /* FOOTER STARTS FROM HERE */
+
+         footer{
+          background-color: rgb(197, 208, 221);
+          width: 100vw;
+          height: 110vh;
+      }
+      
+      .footcontainer{
+          display: grid;
+          grid-template-columns: repeat(2,2fr);
+          grid-template-rows: repeat(1fr);
+          grid-column-start: 2;
+          grid-column-end: 4;
+          width: 90%;
+          height: 1px;
+          row-gap: 10px;
+          column-gap: 122px;
+         place-items: center;
+        margin-left: 12px;
+        padding: 40px;
+        padding-left: 1px;
+      }
+      
+      .ads{
+          font-weight: 100;
+        }
+      
+        .trust{
+          font-size: 20px;
+        }
+      
+        li a{
+          text-decoration: none;
+          color: rgb(101, 86, 86);
+          }
+      
+        li a:hover{
+          color: grey;
+        }
+      
+       #li{
+        list-style-type: none;
+        } 
+      
+       li{
+        font-size: 20px;
+       }
+       
+       .newsletter{
+        border: 1px solid white;
+        background-color: rgb(207, 202, 202);
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+       }
+      
+       ::placeholder{
+          font-size: 17px;
+        }
+       
+       .newsletterbtn{
+        border: 4px solid black ;
+          border-radius: 3px;
+          padding: 10px;
+          background-color: black;
+          margin-top: 12px;
+       }
+      
+       .newsletterbtn a{
+        text-decoration: none;
+        color: white;
+       }
+      }
+      
+
+         /* FOOTER ENDS FROM HERE */
+
+
+/* RESPONSIVE DESIGN STARTS HERE */
+
+ @media (min-width: 500px) and (max-width: 799px){
+ 
+  .helll a, .flexcontainer a{
+     display: none;
+   }
+
+   /* HEADER IS THIS MEANS NAV BAR STARTS FROM HERE */
+
+   .toggle-btn{
+     display: block;
+   }
+
+   .dropdown-menu{
+    left: 2rem;
+    width: unset;
+    margin-top: 50px;
+   }
+ 
+  
+   .logo{
+     font-family: 'Dancing Script', cursive;
+     text-decoration: underline;
+     font-size: 40px;
+     font-weight: 100;
+   }
+
+   .gridcontainer{
+     display: grid;
+     grid-template-columns: repeat(4,1fr);
+     grid-template-rows: repeat(1fr);
+     grid-column-start: 1;
+     grid-column-end: 2;
+     width: 95vw;
+     height: 5vh;
+     row-gap: 1em;
+     column-gap: 2px;
+    place-items: center;
+   margin-left: 12px;  
+   }
+
+   /* HEADER AND NAV BAR ENDS HERE */
+
+   /* TAG LINE STARTS FEOM HERE */
+   #tagline1{
+     text-align: center;
+     font-size: 3rem;
+     font-weight: lighter;
+     padding-left: 2vw;
+     padding-right: 5pvw;
+     
+     margin-top: 140px;
+     margin-bottom: 1px;
+     color: rgb(28, 60, 91);
+     font-family: 'Rajdhani', sans-serif;
+   }
+ 
+   #tagline2{
+     text-align: center;
+     font-size: 30px;
+     font-weight: 100;
+     margin-top: 1px;
+   }
+
+   #twobtn{
+     padding: 3vw;
+     margin: 2px;
+   display: flex;
+   justify-content: center;
+     /* margin: 10px auto 20px; */
+       }
+ 
+   #btn1{
+     border: 4px solid cadetblue;
+     border-radius: 4px;
+     padding: 10px;
+     background-color: cadetblue;
+     margin-right: 45px;
+   }
+ 
+   #btn1:hover{
+     background-color:rgb(40, 145, 220);
+     cursor: pointer;
+     border: 4px solid rgb(40, 145, 220);
+     }    
+ 
+   #btn2{
+     border: 4px solid cadetblue ;
+     border-radius: 4px;
+     padding: 10px;
+     background-color: cadetblue;
+     margin-right: 45px;
+     width: 120px;
+   }
+ 
+   #btn2:hover{
+     background-color:rgb(40, 145, 220);
+     cursor: pointer;
+     border: 4px solid rgb(40, 145, 220);
+     }
+
+/* TAG LINE WALA SYSTEM ENDS HERE */
+
+
+/* COMPUTER WALI IMAGE KI DESIGN STARTS FROM HERE */
+     .imgs{
+       width: 500px;
+       height: 400px;
+       /* margin-left: 27%; */
+       margin: 10px auto 20px;
+       margin-top: 15px;
+     }
+ 
+ 
+     #btn4{
+       border: 4px solid #212b36 ;
+       border-radius: 4px;
+       padding: 10px;
+       background-color: #212b36;
+       margin-left: 45vw;
+       width: 120px;
+       color: white;
+     }
+   
+     #btn4:hover{
+       background-color:#c28f6a;
+       cursor: pointer;
+       border: 4px solid #c28f6a;
+       }
+
+/* COMPUTER WALI IMAGE KI DESIGN ENDS HERE */
+
+/* MAIN CONTENT STARTS FROM HERE */
+
+       .main-container{
+         display: block; 
+         align-content: center; 
+         padding: 100px;
+         justify-content: center;
+         text-align: center;
+        }
+     
+        .main-container1{
+         display: block; 
+         align-content: center; 
+         padding: 100px;
+         justify-content: center;
+         text-align: center;
+         margin-top: -100px;
+         margin-bottom: 10px;
+        }
+        
+        .main-item{
+         color: rgb(28,60,91);
+        
+        }
+     
+        #image{
+         width: 200px;
+     
+         height: auto;
+        }
+
+        /* MAIN CONTENT ENDS HERE */
+
+        /* FOOTER STARTS FROM HERE */
+
+        footer{
+          background-color: rgb(197, 208, 221);
+         width: 100vw;
+         height: 160vh;
+     }
+     
+     .footcontainer{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+         grid-template-rows: repeat(6,1fr);
+         grid-column-start: 2;
+         grid-column-end: 6;
+         width: 90%;
+         height: 1px;
+         row-gap: 10px;
+         column-gap: 122px;
+        place-items: center;
+       margin-left: 12px;
+       padding: 40px;
+       padding-left: 1px;
+     }
+
+     .footitem2{
+      align-self: flex-start;
+     }
+     
+     /* .ads{
+         font-weight: 100;
+         text-align: justify;
+       }
+     
+       .trust{
+         font-size: 17px;
+         /* text-align: justify; */
+         /* margin-right: 150px 100px;
+       } */
+     
+       li a{
+         text-decoration: none;
+         color: rgb(101, 86, 86);
+         
+         }
+     
+       li a:hover{
+         color: grey;
+       }
+     
+      #li{
+       list-style-type: none;
+       } 
+     
+      li{
+       font-size: 20px;
+      }
+      
+      .newsletter{
+       border: 1px solid white;
+       background-color: rgb(207, 202, 202);
+       width: 300px;
+       height: 40px;
+       border-radius: 5px;
+      }
+     
+      ::placeholder{
+         font-size: 17px;
+       }
+      
+      .newsletterbtn{
+       border: 4px solid black ;
+         border-radius: 3px;
+         padding: 10px;
+         background-color: black;
+         margin-top: 12px;
+      }
+     
+      .newsletterbtn a{
+       text-decoration: none;
+       color: white;
+      }
+     
+
+        /* FOOTER ENDS FROM HERE */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px) and (min-width: 200px){
+ 
+  .helll a,.flexitem a{
+     display: none;
+   }
+
+   /* HEADER IS THIS MEANS NAV BAR STARTS FROM HERE */
+
+   .toggle-btn{
+     display: block;
+     /* width: 5px;
+     height: 5px; */
+   }
+
+   .dropdown-menu{
+    left: 2rem;
+    width: unset;
+    margin-top: 50px;
+   }
+
+  
+   .logo{
+     font-family: 'Dancing Script', cursive;
+     text-decoration: underline;
+     font-size: 40px;
+     font-weight: 100;
+   }
+
+   .gridcontainer{
+     display: grid;
+     grid-template-columns: repeat(4,2fr);
+     grid-template-rows: repeat(1fr);
+     grid-column-start: 1;
+     grid-column-end: 2;
+     width: 95vw;
+     height: 5vh;
+     row-gap: 1em;
+     column-gap: 2px;
+    place-items: center;
+   margin-left: 50px;  
+   }
+
+   /* HEADER AND NAV BAR ENDS HERE */
+
+   /* TAG LINE STARTS FEOM HERE */
+   #tagline1{
+     text-align: center;
+     font-size: 30px;
+     font-weight: lighter;
+     margin-top: 140px;
+     margin-bottom: 1px;
+     color: rgb(28, 60, 91);
+     font-family: 'Rajdhani', sans-serif;
+     margin-left: -90px;
+     margin-right: -120px;
+
+   }
+ 
+   #tagline2{
+     text-align: center;
+     font-size: 15px;
+     font-weight: 100;
+     margin-top: 1px;
+     margin-left: -90px;
+     margin-right: -90px;
+
+   }
+
+   #twobtn{
+     padding: 3vw;
+     margin: 2px;
+     display: flex;
+     justify-content: center;
+     /* margin: 10px auto 20px; */
+     margin-left: -90px;
+     margin-right: -140px;
+
+    }
+ 
+   #btn1{
+     border: 4px solid cadetblue;
+     border-radius: 4px;
+     padding: 10px;
+     background-color: cadetblue;
+     margin-right: 45px;
+   }
+ 
+   #btn1:hover{
+     background-color:rgb(40, 145, 220);
+     cursor: pointer;
+     border: 4px solid rgb(40, 145, 220);
+     }    
+ 
+   #btn2{
+     border: 4px solid cadetblue ;
+     border-radius: 4px;
+     padding: 10px;
+     background-color: cadetblue;
+     margin-right: 45px;
+     width: 120px;
+   }
+ 
+   #btn2:hover{
+     background-color:rgb(40, 145, 220);
+     cursor: pointer;
+     border: 4px solid rgb(40, 145, 220);
+     }
+
+/* TAG LINE WALA SYSTEM ENDS HERE */
+
+
+/* COMPUTER WALI IMAGE KI DESIGN STARTS FROM HERE */
+
+
+     .serve2{
+      font-size: 18px;
+      margin-left: 15px; 
+      margin-right: -9px;
+ 
+     }
+
+     .imgs{
+       width: 300px;
+       height: auto;
+       /* margin-left: 27%; */
+       margin: 20px auto 20px;
+       margin-top: 15px;
+     } 
+ 
+ 
+     #btn4{
+       border: 4px solid #212b36 ;
+       border-radius: 4px;
+       padding: 10px;
+       background-color: #212b36;
+       margin-left: 30vw;
+       width: 120px;
+       color: white;
+     }
+   
+     #btn4:hover{
+       background-color:#c28f6a;
+       cursor: pointer;
+       border: 4px solid #c28f6a;
+       }
+
+/* COMPUTER WALI IMAGE KI DESIGN ENDS HERE */
+
+/* MAIN CONTENT STARTS FROM HERE */
+
+       .main-container{
+         display: block; 
+         align-content: center; 
+         padding: 100px;
+         justify-content: center;
+         text-align: center;
+        }
+     
+        .main-container1{
+         display: block; 
+         align-content: center; 
+         padding: 100px;
+         justify-content: center;
+         text-align: center;
+         margin-top: -100px;
+         margin-bottom: 10px;
+        }
+        
+        .main-item{
+         color: rgb(28,60,91);
+        
+        }
+     
+        #image{
+         width: 200px;
+         margin: 10px auto 20px;
+         height: auto;
+        }
+
+        #para{
+          margin-top: 1px;
+          font-size: 18px;
+          margin-left: -90px;
+          margin-right: -90px;
+          text-align: center;
+        }
+
+        /* MAIN CONTENT ENDS HERE */
+
+        /* FOOTER STARTS FROM HERE */
+
+        footer{
+          background-color: rgb(197, 208, 221);
+         /* width: 120vw; */
+         width: 120%;
+         height: 1200px;
+     }
+     
+     .footcontainer{
+         display: grid;
+         grid-template-columns: repeat(1,2fr);
+         grid-template-rows: repeat(1fr);
+         grid-column-start: 2;
+         grid-column-end: 4;
+         width: 100vw;
+         height: 1px;
+         row-gap: 10px;
+         column-gap: 122px;
+        place-items: center;
+       margin-left: 12px;
+        margin-right: 122px;
+       padding: 30px;
+       padding-left: 1px;
+     }
+     
+     .ads{
+         font-weight: 100;
+       }
+     
+       .trust{
+         font-size: 18px;
+       }
+     
+       li a{
+         text-decoration: none;
+         color: rgb(101, 86, 86);
+         }
+     
+       li a:hover{
+         color: grey;
+       }
+     
+      #li{
+       list-style-type: none;
+       } 
+     
+      li{
+       font-size: 20px;
+      }
+      
+      .newsletter{
+       border: 1px solid white;
+       background-color: rgb(207, 202, 202);
+       width: 300px;
+       height: 40px;
+       border-radius: 5px;
+      }
+     
+      ::placeholder{
+         font-size: 17px;
+       }
+      
+      .newsletterbtn{
+       border: 4px solid black ;
+         border-radius: 3px;
+         padding: 10px;
+         background-color: black;
+         margin-top: 12px;
+      }
+     
+      .newsletterbtn a{
+       text-decoration: none;
+       color: white;
+      }
+     
+
+        /* FOOTER ENDS FROM HERE */
+}
+ 
+
+
+
+
+
+
+
+
+                                                   /* FULLY COMPLETED IN POV  */
